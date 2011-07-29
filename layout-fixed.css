@@ -1,0 +1,50 @@
+
+#banner{
+	height: 100px;
+	backgroung-color: lime;
+	}
+a:hover {
+	border-bottom:2px solid;
+	color:black;
+	}
+
+#innercontainer {
+	overflow: hidden;
+
+  padding-left: 200px;   
+  padding-right: 150px;  
+}
+
+#center {
+  float:left;
+  width: 805px;
+  height: 470px;
+}
+#left {
+  
+	float:left;
+    width: 175px;
+    height: 470px;
+	
+
+}
+#right {
+ float:right;
+  width: 175px;
+  height: 470px; 
+  
+  }
+  
+#footer {
+ background-color:green;
+    height: 45px;
+    margin-top: 5px;
+    text-align:center ; 
+	width:100%;
+}
+
+
+/*** IE Fix ***/
+* html #left {
+  left: 150px;           /* RC fullwidth */
+}
