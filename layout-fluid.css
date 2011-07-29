@@ -1,0 +1,46 @@
+#body {
+  min-width: 550px;      
+}
+#banner{
+	height: 100px;
+	backgroung-color: lime;
+	}
+
+
+#innercontainer {
+overflow: hidden;
+padding-left: 200px;
+padding-right: 150px;
+}
+.column {
+    padding-bottom: 20010px;
+    margin-bottom: -20000px; 
+	}
+}
+#center {
+  float:left;
+  width:100%;
+  background-color:red;
+}
+#left {
+ float:left;
+  width: 200px;          
+  margin-left: -200px;
+  background-color: green;
+  
+}
+#right {
+  float:right;
+  width: 150px;          
+  margin-right: -150px;  
+  background-color: black;
+  }
+#footer {
+  clear: both;
+}
+
+
+/*** IE Fix ***/
+* html #left {
+  left: 150px;           /* RC fullwidth */
+}
