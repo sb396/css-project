@@ -1,0 +1,113 @@
+
+#banner{
+	height: 50px;
+	backgroung-color: blue;
+	}
+	
+	
+#header li{
+	display: inline;
+	margin-left:1cm;
+
+}
+#header {
+	height:30px;
+	background-color:orange;
+	line-height:30px;
+
+}
+#outercontainer  {
+	margin-left:auto;
+	margin-right:auto;
+
+}
+
+#center{
+	
+	background-color: red;
+	text-align:center;
+
+}
+#content h1,h2,h3,h4,h5,h6{
+	padding-left: 75px;
+
+
+}
+#left{
+	
+	
+	background-color: blue;
+	
+	
+}
+#right{
+	
+	
+	
+	background-color:lime;
+	color: red;
+	
+}
+
+#content_block a {
+COLOR: RED;
+}
+#table   {
+	border-collapse:collapse;
+	width:500px;
+	height:50px;
+	margin-left: 6cm;
+	border-width: 10px;
+	}
+table
+{
+border-collapse:collapse;
+border:1px solid black;
+width:500px;
+width:500px;
+
+
+}
+.header{
+background-color: orange;
+}
+.odd{
+background:lime;
+}
+.even{
+background:red;
+}
+#footer {
+	background: #ccc;
+	height: 20px;
+	position: relative;
+	width:960px;
+	margin-left:4cm;
+	padding-left: 20px;
+}
+.clearfooter {
+   height: 100px;
+   clear: both;
+}
+
+#primaryLinks li{
+	display: inline;
+	margin-left:3cm;
+
+}
+#primaryLinks {
+	height:30px;
+	background-color:orange;
+	line-height:30px;
+}
+#secondaryLinks li{
+	display: inline;
+	margin-left:3cm;
+
+}
+#secondaryLinks {
+	
+	height:30px;
+	background-color:lime;
+	line-height:30px;
+}
